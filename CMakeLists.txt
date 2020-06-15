@@ -3,4 +3,4 @@ project(vierGewinnt)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(vierGewinnt main.cpp Board.cpp Board.h Computer.cpp Computer.h)
+add_executable(vierGewinnt main.cpp Board.cpp Board.h Bot/RandomBot.cpp Bot/RandomBot.h Bot/IBot.h Bot/FromLeftBot.cpp Bot/FromLeftBot.h Game.cpp Game.h)
